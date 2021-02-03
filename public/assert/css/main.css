@@ -1,0 +1,80 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html, body{
+	height: 100%;
+}
+body{
+	padding: 30px;
+}
+.form{
+	display: flex;
+	flex-direction: column;
+	width: 800px;
+	min-height: 200px;
+	border: 1px solid grey;
+	box-shadow: 3px 3px grey;
+	margin: 0 auto;
+	padding: 30px;
+}
+.form__curier-select{
+	min-width: 100px;
+	height: 20px;
+}
+.form__group{
+	display: flex;
+	justify-content: space-between;
+	margin: 10px 0
+}
+label{
+	margin-right: 20px;
+}
+form__date-input{
+	
+}
+.form__btn{
+	display: block;
+	padding: 5px 15px;
+}
+.form__group_centered{
+	justify-content: center;
+}
+.table{
+	display: table;
+	margin: 50px auto 0 auto;
+	border: 1px solid black;
+	width: 800px;
+	text-align: center;
+	vertical-align: middle;
+}
+.table__row{
+	display: table-row;
+}
+.table__cell{
+	display: table-cell;
+	border: 1px solid black;
+}
+.table__header{
+	display: table-header-group
+}
+.table__cell_header{
+	font-weight: bold;
+}
+.table__row_header{
+	background-color: lightgrey;
+}
+.box-control{
+	display: flex;
+	margin: 0 auto;
+	width: 800px;
+	margin-top: 50px;
+}
+.box-control__group{
+	margin-left: 20px;
+}
+.table__message{
+	text-align: center;
+	margin-top: 50px;
+}
